@@ -1,0 +1,11 @@
+//Node js is for running  javascript on server inasted of browser .
+//Nodejs is wroted with c++ language , it uses v8 to compile javascript to machine language , google uses v8 engine in chrome browser .
+//node -v in CMD to check if node is instlled .
+// in terminal: node filename.js to run it .
+//when you are in vscode write node the the file name and it will excute it .
+// fs file system , const fs = require('fs') , fs.writeFileSync('name','content').
+//python with django framework or php with laravel framework are alternatives for nodejs .
+//expressjs is nodejs framework .
+//REBl read evaluate  print loop , is where you write node in cmd and write js code line by line , and not will be save , its for test or train  .
+//the second way is excute files that we tested , and its used for real applications .
+//
