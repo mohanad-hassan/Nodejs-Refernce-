@@ -1,0 +1,4 @@
+// go to file and write Module.exports = what you want to export , module is node global object.
+// now to im port just write , const name  = require('file name that you exported from ').
+//if you are exporting more than one thing exported in {} and you can acces to it by name  name.the name .
+//or as alternative you can do this module.exports.name1 =  ,  module.exports.name2 =  , as a shortcut you can omit module   (module.exports)
