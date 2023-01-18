@@ -1,0 +1,15 @@
+//NPM node package manager is installed with node .
+//when you want to start a node project , we wrote node ... .js  .
+//except that you can put  node ... .js  .  in package.json and give it a shortcut , example npm run start (in scripts ) .
+//npm init to create package.json.
+// npm run the the command (only default scripts like start you can omit the run keyword ).
+// -g global , --save-dev only in development mode .
+//you can define when npm install to download the newest versions of packages or the ones that is in the package.json.
+//nodemon library is like liveserver but for nodejs .
+//in start script inasted of   node ... .js   we write nodemon ...js .
+you cant write nodemon ...js in the terminal manually if you didint installed glonbaly by -g .
+//use debug mode with vscode and node  enviroment its really great .
+//you can console log  in debug console by variable name .
+//im maximilian course lesson 52 how to use debug restart with node mon . , dont forget to install nodemon globally.
+//you can manibulate variables values in debugmode .
+//
