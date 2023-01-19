@@ -1,0 +1,35 @@
+// npm install express .
+
+
+
+const http = require('http');
+
+const express = require('express');
+
+const app = express();
+
+
+//MIDDLEWARE
+app.use((req, res, next) => {
+    console.log('In the middleware!');
+    next(); // Allows the request to continue to the next middleware in line
+});
+
+//MIDDLEWARE
+app.use([path,path],(req, res, next) => {
+    console.log('In another middleware!');
+    res.send('<h1>Hello from Express!</h1>'); 
+    //text/html and body is sended default by express js 
+});
+code x 
+const server = http.createServer(app);
+server.listen(3000);
+alternative for code x 
+app.listen(3000)
+
+//middleware are the functions that holds request and response .
+//NOTE path '/' means starts with / , '/love' means starts with love 
+
+be careful about that .
+//
+
