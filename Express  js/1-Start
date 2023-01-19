@@ -31,5 +31,6 @@ app.listen(3000)
 //NOTE path '/' means starts with / , '/love' means starts with love 
 
 be careful about that .
+// you can set one path or several paths in same middleware function .
 //
 
