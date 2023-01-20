@@ -1,0 +1,12 @@
+//you can define middleware functions in another files inasted input them in the same file . 
+//now in a random js file do the following , const express = require('express').
+//const router  = express.Router()
+router.use(the middleware function )  , then module.exports=router.
+//to import it in the main file , const anyname = require('path.js')  //the path of the file .
+//app.use(anyname)  you assign it above .
+//to handle 404 eroors , we use app.use without a path or with path '/'.
+
+//app.use(path1)  in the main name 
+router.use(path2)
+now to go to that path you have to write , localhost:3000/path1/path2  its a kind of expressjs filtering .
+//
