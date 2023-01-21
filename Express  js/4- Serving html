@@ -16,3 +16,9 @@ router.post('/add-product', (req, res, next) => {
 });
 
 module.exports = router;
+
+//to use external css file imported it in html file , 
+put the css file in 'public' file   , now in the main project file , write app.use(express.static(path
+join(__dirname,'public')))  to allow the project to just read file from public folder (public is just a name you can choose )
+//you can  a alot of public of folders and it will search in all of them .
+//
