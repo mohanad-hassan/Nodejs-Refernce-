@@ -1,0 +1,11 @@
+// when you use ? with the url it will be query , http:localhost:5000/products?name=car&page=2 . 
+now the url is without ? and what is after , and you can find them in node js to send them to DB , const query  = req.query.
+//is you send query to the DB with value not in the schema it will ignore it  in mongodb 6 , and return empty array in mongodb 5 .
+//mongodb accepts regex when sending requests .
+//mongo db gives you option to sort data , module.find({}).sort('property name you want to sort by it ')
+//const products  = await products.find({})  will execute immeditely .
+//lst products  = products.find() , wont execute because we didnt add await , await products.sort()  now it will execute .
+// products.find().select("name price") it will return only this values and omit the others .
+//module/find(5).limit(5) to return only 5 results  if you add .skip(number) it skips to the next 5 from the last response .
+// we use skip for pagination .
+//
