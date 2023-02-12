@@ -2,4 +2,4 @@
 //you need npm packages to use them.
 //in the pervious projects we sent http request and got the response , now we will restrict it , we will send request to jwt .
 it will response with jsonwebtoken , to to send http you have to implement jwt with the requset .
-//
+// after reciving the token , we send it as header with get methods to fetch data from the server , authorization :token  
