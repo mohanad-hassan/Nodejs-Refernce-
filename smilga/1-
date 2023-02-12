@@ -8,4 +8,5 @@ now the url is without ? and what is after , and you can find them in node js to
 // products.find().select("name price") it will return only this values and omit the others .
 //module/find(5).limit(5) to return only 5 results  if you add .skip(number) it skips to the next 5 from the last response .
 // we use skip for pagination .
+// in mongodb we have numeric filters , module.find({property:$gt:30})  greater than , ln lesserthan .
 //
