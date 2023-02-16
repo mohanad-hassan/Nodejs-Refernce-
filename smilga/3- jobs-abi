@@ -1,0 +1,6 @@
+//dont store passowrds as strings in database , store them after hashing , we can use a library like , bcryptjs .
+// to short cut the code their is mongoose mdilewares , example : schema.pre("save",async function (next) {
+this.schemaProperty 
+next() //because its express modleware
+} .
+//
