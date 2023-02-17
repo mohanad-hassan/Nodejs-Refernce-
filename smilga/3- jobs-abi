@@ -3,4 +3,14 @@
 this.schemaProperty 
 next() //because its express modleware
 } .
+// userSchema.pre("save", async function (next) {
+     const salt = await bcrypt.genSalt(10)
+  this.password =await bcrypt.hash(this.password,salt)
+    next()
+// it takes the data after await Schems.cretate .
+//in Schema always use function keyword to be able to use this keyword , if you use arrow function this will be useless.
+//by Schema.methods.anyname  = function () {return this.name }
+now to get name you can use Schema.anyname().
+//this schema functions it just for organize your code and make it better .
 //
+ 
