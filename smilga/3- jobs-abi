@@ -17,6 +17,15 @@ now to get name you can use Schema.anyname().
 const Token = jsonData.token
 pm.globals.set("accesToken", Token);
 
-//now to use it 
+ // in mongo db every error has a unique code .
+ // in js  Object.keys(object) to return array contains all the keys of that object .
+ //cors cross origin  resource sharing , if you dont install cors library , you cant acces to your RESTAPI from any where except the public folder 
+ you set in your project .
+ //xss clean library to protect from attacks cleans the request after send it  .
+ //express rate limit to prevent user from send a lot of requests .
+ //helmet library to set a lot of headres to prevent hacking .
+ // in post man you can expoort a collection as a json file wich contains all your commands , but first you have to reformat the data , we will 
+ use APIMATIC webSite to do that .
+ //
 
 
