@@ -12,5 +12,11 @@ next() //because its express modleware
 //by Schema.methods.anyname  = function () {return this.name }
 now to get name you can use Schema.anyname().
 //this schema functions it just for organize your code and make it better .
-//
- 
+// in postman  you can save any thing from  a restApi route to postman variable , go to TEST , and you can do it over there 
+ // const jsonData = pm.response.json()
+const Token = jsonData.token
+pm.globals.set("accesToken", Token);
+
+//now to use it 
+
+
