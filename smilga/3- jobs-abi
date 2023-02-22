@@ -26,6 +26,8 @@ pm.globals.set("accesToken", Token);
  //helmet library to set a lot of headres to prevent hacking .
  // in post man you can expoort a collection as a json file wich contains all your commands , but first you have to reformat the data , we will 
  use APIMATIC webSite to do that .
- //
+ //their is swagger ui  its like postman but online , he exported json file from postman , then we go to APiMatic and inserted it (exported with yaml version 
+ 3) , and give 
+ the url that we deployed our site on it , then take the result to Swagger Ui Editor , 
 
 
