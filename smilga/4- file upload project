@@ -1,0 +1,12 @@
+//there is a lot of ways , we will use express-fileupload library , and cloudinary .
+// on mongo db we cant store images ,we will store it on cloudinary and then store the url of the image on mongodb .
+//to upload files with post man go to body then form data then choose  form data type file .
+//now if we console log the body we will see nothing so we install npm i express-fileupload then clg req.files .
+//const imagePath = path.join("__dirname","../public/uploads"+"image.name").
+// await productImage.mv(imagePath)   , mv is function from express-fileupload to take the file where you want , in this case we take it to our localserver .
+//now lets set cloudinary (its a service to store files )   , 
+in app.js  , const cloudinary  = require("cloudinary').v2 dont forget v2 or it will not work 
+cloundinay.config("now set yout data ") .
+//now in the function of upload  ,await cloudinary.uploader.upload("path")  .
+// note : in fileupload({usetempfiles:true}) now it will store them temporarily , and the file .temppath is the path we need .
+//now the last thing lets remove the temp imgge after uplaod it , fs.unLinkSync("temppath').
